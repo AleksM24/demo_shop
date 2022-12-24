@@ -65,236 +65,288 @@
       </div>
     </div>
   </header>
-  <main>
-    <div class="main_container">
-      <aside class="col-3">ASIDE</aside>
-      <section class="col-9">
-        <div>
-          <p class="link_line">
-            <a href="">Home page</a><img class="angle_right_icon" src="/demo_shop/angle_right_icon.svg" alt="">
-            <a href="">Products</a><img class="angle_right_icon" src="/demo_shop/angle_right_icon.svg" alt="">
-            <a href="">Laptops and Tablets</a>
-          </p>
+  <main class="main">
+        <div class="container">
+            <div class="row">
+                <aside class="col-3">
+
+                    <div class="filter">
+                        <h2 class="dt">DEVICE TYPE</h2>
+                        <div class="radio-select">
+                            <input class="filter-item" type="checkbox">  Laptop<br>
+                            <input class="filter-item" type="checkbox">  Tablet
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <h2 class="color">COLOR</h2>
+                        <div class="radio-select">
+                            <input class="filter-item" type="checkbox">  Black<br>
+                            <input class="filter-item" type="checkbox">  Red<br>
+                            <input class="filter-item" type="checkbox">  Green<br>
+                            <input class="filter-item" type="checkbox">  Blue<br>
+                            <input class="filter-item" type="checkbox">  Orange
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <h2 class="ram">RAM</h2>
+                        <div class="radio-select">
+                            <input class="filter-item" type="checkbox">  1 GB<br>
+                            <input class="filter-item" type="checkbox">  2 GB<br>
+                            <input class="filter-item" type="checkbox">  4 GB<br>
+                            <input class="filter-item" type="checkbox">  6 GB<br>
+                            <input class="filter-item" type="checkbox">  8 GB
+                        </div>
+                    </div>
+                    <div class="show">
+                        <a href="">Show more options...</a>
+                    </div>
+                    <div class="row btn-submit-block">
+                        <button class="btn-submit">SUBMIT</button>
+                    </div>
+
+                </aside>
+                <section class="col-9">
+                    <div class="row">
+                        <div class="col-12 breadcrambs">
+                            <a href="">Home page</a><img class="angle_right_icon" src="/demo_shop/angle_right_icon.svg"
+                                alt="">
+                            <a href="">Products</a><img class="angle_right_icon" src="/demo_shop/angle_right_icon.svg"
+                                alt="">
+                            <a href="">Laptops and Tablets</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <h2 class="title">Laptops and Tablets</h2>
+                        </div>
+                        <div class="col-4 sort">
+                            <select class="selection" name="sort" id="">
+                                <option value="">sort by price</option>
+                                <option value="">sort by name</option>
+                                <option value="">sort by date</option>
+                                <option value="">sort by popularity</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row first-row-products">
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/TV.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#1 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$599<sup>25</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/device.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#2 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$1250<sup>99</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/watch.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#3 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$399<sup>50</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-products">
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/laptop.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#1 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$599<sup>25</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/ipad.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#2 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$1250<sup>99</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/smartphone.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#3 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$399<sup>50</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-products">
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/tablet.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#1 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$599<sup>25</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/device.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#2 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$1250<sup>99</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="product">
+                                <div class="produkt-img">
+                                    <img src="/demo_shop/watch.png" alt="picture">
+                                    <div class="zoom"></div>
+                                    <div class="like"></div>
+                                </div>
+                                <h2 class="product-title">#3 Device Name</h2>
+                                <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <div class="product_features"><span class="features">TYPE: </span>Laptop</div>
+                                <div class="product_features"><span class="features">SCREEN SIZE: </span>7 inches</div>
+                                <div class="product_features"><span class="features">RAM: </span>1 GB</div>
+                                <div class="product_price">$399<sup>50</sup></div>
+                                <div class="btn">
+                                    <button class="btn btn-more-details">MORE DETAILS</button>
+                                    <button class="btn btn-add-to-cart">ADD TO CART <img src="/lesson-9/imeges/cart.png"
+                                            alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 load-more">
+                            <a href="">Load more...</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-        <div class="products_title">
-          <div class="name_products">
-            <h2>Laptops and Tablets</h2>
-          </div>
-          <select class="selection col-3" name="sort" id="">
-            <option value="">sort by price</option>
-            <option value="">sort by name</option>
-            <option value="">sort by date</option>
-            <option value="">sort by popularity</option>
-          </select>
-        </div>
-        <div class="first_line">
-          <div class="first_item">
-            <div class="picture">
-              <img src="/demo_shop/TV.png" alt="picture">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#1 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$599<sup>25</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-          <div class="second_item">
-            <div class="picture">
-              <img src="/demo_shop/device.png" alt="device">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#2 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$1250<sup>99</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-          <div class="third_item">
-            <div class="picture">
-              <img src="/demo_shop/watch.png" alt="watch">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#3 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$399<sup>50</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-        </div>
-        <div class="second_line">
-          <div class="first_item">
-            <div class="picture">
-              <img src="/demo_shop/laptop.png" alt="picture">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#1 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$599<sup>25</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-          <div class="second_item">
-            <div class="picture">
-              <img src="/demo_shop/ipad.png" alt="picture">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#2 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$1250<sup>99</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-          <div class="third_item">
-            <div class="picture">
-              <img src="/demo_shop/smartphone.png" alt="picture">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#3 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$399<sup>50</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-        </div>
-        <div class="third_line">
-          <div class="first_item">
-            <div class="picture">
-              <img src="/demo_shop/tablet.png" alt="picture">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#1 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$599<sup>25</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-          <div class="second_item">
-            <div class="picture">
-              <img src="/demo_shop/device.png" alt="picture">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#1 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">1250<sup>99</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-          <div class="third_item">
-            <div class="picture">
-              <img src="/demo_shop/watch.png" alt="picture">
-              <div class="white_block"></div>
-              <div class="white_heart"></div>
-            </div>
-            <div class="title_device">
-              <h3>#1 Device Name</h3>
-            </div>
-            <div class="charakteristics">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p><span class="type"><b>TYPE:</b></span><span> Laptop</span></p>
-              <p><span class="screen"><b>SCREEN SIZE:</b></span><span> 7 inches</span></p>
-              <p><span class="ram"><b>RAM:</b></span><span> 1GB</span></p>
-            </div>
-            <div class="price">$399<sup>50</sup></div>
-            <div class="btn_block">
-              <button class="more_btn">MORE DETAILS</button><br>
-              <button class="add_btn">ADD TO CART <img class="cart_img" src="/demo_shop/cart.png"
-                  alt="cart"></button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+    </main>
+
+   
   </main>
-  <footer class="footer">Footer</footer>
+  <footer class="footer">
+    <div class="container">
+        <div class="row copyright">
+            <div class="col-12 footer-title">
+                <div class="symbol">
+                    <span class="c">c</span>
+                </div>
+                Copyright 2017
+            </div>
+        </div>
+    </div>
+</Footer>
 </body>
 
 </html>
