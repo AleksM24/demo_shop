@@ -2,98 +2,111 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/abd57712a5.js" crossorigin="anonymous"></script>
-  <title>Demo-shop</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/abd57712a5.js" crossorigin="anonymous"></script>
+    <title>Demo-shop</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <div class="logo">
-            <a href="">
-              <img src="/demo_shop/logo.png" alt="logo" />
-            </a>
-          </div>
-        </div>
-        <div class="col-6">
-          <ul class="menu">
-            <li><a href="">Home</a></li>
-            <li>
-              <a href="">Products<i class="fa-solid fa-angle-down"></i></a>
-              <ul class="submenu">
-                <li><a href="">Lorem ipsum dolor</a></li>
-                <li><a href="">Sit amet</a></li>
-                <li><a href="">Consectetur adipisicing</a></li>
-                <li><a href="">Tempor incididunt</a></li>
-                <li><a href="">Dolore magna aliqua</a></li>
-                <li><a href="">Ut enim ad minim veniam</a></li>
-                <li><a href="">Quis nostrud</a></li>
-              </ul>
-            </li>
-            <li><a href="">Shipping</a></li>
-            <li><a href="">Payment</a></li>
-          </ul>
-        </div>
-        <div class="col-3">
-          <div class="right_block">
-            <form class="search_form" action="">
-              <input class="input_search" type="search" name="" id="" placeholder="search" />
-              <button class="search_btn">
-                <a href="">
-                  <img class="search_image" src="/demo_shop/search.png" alt="search" />
-                </a>
-              </button>
-            </form>
-            <div class="basket">
-              <button class="btn_basket">
-                <a href=""><img src="/demo_shop/basket.png" alt="basket" /></a>
-              </button>
-              <div class="orders">4</div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo">
+                        <a href="">
+                            <img src="/demo_shop/logo.png" alt="logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul class="menu">
+                        <li><a href="">Home</a></li>
+                        <li>
+                            <a href="">Products<i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="submenu">
+                                <li><a href="">Lorem ipsum dolor</a></li>
+                                <li><a href="">Sit amet</a></li>
+                                <li><a href="">Consectetur adipisicing</a></li>
+                                <li><a href="">Tempor incididunt</a></li>
+                                <li><a href="">Dolore magna aliqua</a></li>
+                                <li><a href="">Ut enim ad minim veniam</a></li>
+                                <li><a href="">Quis nostrud</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Payment</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="right_block">
+                        <form class="search_form" action="">
+                            <input class="input_search" type="search" name="" id="" placeholder="search" />
+                            <button class="search_btn">
+                                <a href="">
+                                    <img class="search_image" src="/demo_shop/search.png" alt="search" />
+                                </a>
+                            </button>
+                        </form>
+                        <div class="basket">
+                            <button class="btn_basket">
+                                <a href=""><img src="/demo_shop/basket.png" alt="basket" /></a>
+                            </button>
+                            <div class="orders number">0</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="slider-block">
+                    <div><img class="img-slider" src="/demo_shop/tablet.jpg" alt=""></div>
+                    <div><img class="img-slider" src="/demo_shop/smartphone.jpg" alt=""></div>
+                    <div><img class="img-slider" src="/demo_shop/PC.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </header>
-  <main class="main">
+    <main class="main">
         <div class="container">
             <div class="row">
                 <aside class="col-3">
                     <div class="filter">
                         <h2 class="dt">DEVICE TYPE</h2>
                         <div class="radio-select">
-                            <input class="filter-item" type="checkbox">  Laptop<br>
-                            <input class="filter-item" type="checkbox">  Tablet
+                            <input class="filter-item" type="checkbox"> Laptop<br>
+                            <input class="filter-item" type="checkbox"> Tablet
                         </div>
                     </div>
                     <div class="filter">
                         <h2 class="color">COLOR</h2>
                         <div class="radio-select">
-                            <input class="filter-item" type="checkbox">  Black<br>
-                            <input class="filter-item" type="checkbox">  Red<br>
-                            <input class="filter-item" type="checkbox">  Green<br>
-                            <input class="filter-item" type="checkbox">  Blue<br>
-                            <input class="filter-item" type="checkbox">  Orange
+                            <input class="filter-item" type="checkbox"> Black<br>
+                            <input class="filter-item" type="checkbox"> Red<br>
+                            <input class="filter-item" type="checkbox"> Green<br>
+                            <input class="filter-item" type="checkbox"> Blue<br>
+                            <input class="filter-item" type="checkbox"> Orange
                         </div>
                     </div>
                     <div class="filter">
                         <h2 class="ram">RAM</h2>
                         <div class="radio-select">
-                            <input class="filter-item" type="checkbox">  1 GB<br>
-                            <input class="filter-item" type="checkbox">  2 GB<br>
-                            <input class="filter-item" type="checkbox">  4 GB<br>
-                            <input class="filter-item" type="checkbox">  6 GB<br>
-                            <input class="filter-item" type="checkbox">  8 GB
+                            <input class="filter-item" type="checkbox"> 1 GB<br>
+                            <input class="filter-item" type="checkbox"> 2 GB<br>
+                            <input class="filter-item" type="checkbox"> 4 GB<br>
+                            <input class="filter-item" type="checkbox"> 6 GB<br>
+                            <input class="filter-item" type="checkbox"> 8 GB
                         </div>
                     </div>
                     <div class="show">
@@ -332,20 +345,37 @@
         </div>
     </main>
 
-   
-  </main>
-  <footer class="footer">
-    <div class="container">
-        <div class="row copyright">
-            <div class="col-12 footer-title">
-                <div class="symbol">
-                    <span class="c">c</span>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-12 footer-title">
+                    <div class="symbol">
+                        <img src="/demo_shop/copyright_ic_icon.svg" alt="">                           
+                    </div>
+                    <div><p>Copyright 2017</p></div>
                 </div>
-                Copyright 2017
             </div>
         </div>
+    </Footer>
+
+    <div class="modal">
+        <div class="modal-block">
+            <form action="">
+                <div class="btn-wrap">
+                    <div class="btn-close">X</div>
+                </div>
+                <h3>Please call for more details</h3>
+                <div class="form-field"><input type="text" placeholder="Your name"></div>
+                <div class="form-field"><input type="text" placeholder="Your phone"></div>
+                <button>Send</button>
+            </form>
+        </div>
     </div>
-</Footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="/demo_shop/app.js"></script>
 </body>
 
 </html>
